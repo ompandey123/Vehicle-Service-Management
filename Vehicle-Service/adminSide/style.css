@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+nav{
+	position: fixed;
+	/*background-color: black;*/
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+	/*background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,0,255,1) 0%, rgba(160,30,105,1) 30%, rgba(180,34,114,1) 45%, rgba(214,40,128,1) 65%);*/
+}
+
+.logo{
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 70px;
+}
+
+ul{
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+
+ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px; 
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	margin: 15px;
+}
+	
+
+.garageImage{
+	width: 100%;
+}
+
+.IntroText{
+	position: absolute;
+	top: 20%;
+	/*left: 30%;*/
+	color: black;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 20px;
+	padding:50px;
+	margin: 50px;
+	font-size: 25px;
+}
+
+#submit{
+	background-color: black;
+	width: 20%;
+	height: 35%;
+	font-size: 25px;
+}
+
+.form{
+position: absolute;
+	top: 20%;
+	width: 95%;
+	/*left: 30%;*/
+	color: black;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 20px;
+	padding:50px;
+	margin: 50px;
+	font-size: 25px;	
+}
+
+.field{
+	width: 100%;
+	color: black;
+}
+
+.submit{
+	width: 20%;
+	height: 35%;
+	background-color: black;
+	font-size: 25px;
+	color: white;
+	padding:5px;
+}
+
+.form2{
+	position: absolute;
+	width: 80%;
+	/*left: 30%;*/
+	color: black;
+	background-color: red;
+	color: black;
+	border: 1px black solid;
+	box-shadow: 5px 1x 8px white;
+	border-radius: 20px;
+	padding:50px;
+	margin: 200px;
+	font-size: 25px;
+}
+
+#submit{
+	width: 20%;
+	height: 35%;
+	background-color: black;
+	font-size: 25px;
+	color: white;
+	padding:5px;
+}
+
+.servicefield{
+	width: 80%;
+}
+
+table{
+	width: 100%;
+}

@@ -1,0 +1,61 @@
+.form2{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);	
+width: 50%;
+/*margin: 400px;*/
+margin-top: 150px;
+margin-left: 400px;
+font-size: 25px;
+font-weight:  bold;
+color: black;
+padding: 70px;
+}
+
+.field{
+	width: 100%;
+	color: black;
+}
+
+.submit{
+	width: 50%;
+	background-color: black;
+	color: white;
+}
+
+.manage{
+	border: 1px solid black;
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	width:50%;
+	height: 100%;
+	padding: 25px;
+	transition: 1s;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.cardImage{
+	width: 50%;
+	overflow: hidden;
+	border:1px solid black;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.manage:hover{
+	transform: scale(1.08);
+	z-index: 2;
+
+}
+
+.cardText{
+	margin-left: 10px;
+}
